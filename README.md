@@ -3,7 +3,13 @@ We develop a cox proportional hazard model for network regression in TWAS, CoNet
 This approach is described in, \<br>
 >Jiayi Han 1,2, Liye Zhang 1,2, Ran Yan1,2, Tao Ju 1,2, Xiuyuan Jin 1,2, Shukang Wang1,2, Zhongshang Yuan 1,2 and Jiadong Ji 3,*
 >CoNet: Efficient network regression for survival analysis in transcriptome-wide association studies—with applications to studies of breast cancer
+
 #Installation
-It is easy to intall the development version of CoNet package using the 
+It is easy to intall the development version of CoNet package using the 'devtools' package.\<br>
+#install.packages("devtools")
+library(devtools)
+install_github("hanjiayi/CoNet")
+#Usage
+
 
 
