@@ -5,13 +5,13 @@ This approach is described in, </br>
 >CoNet: Efficient network regression for survival analysis in transcriptome-wide association studies—with applications to studies of breast cancer
 
 # Installation
-It is easy to intall the development version of CoNet package using the 'devtools' package.
+It is easy to intall the development version of CoNet package using the 'devtools' package.</br>
+#install.packages("devtools")</br>
+library(devtools)</br>
+install_github("hanjiayi/CoNet")</br>
+# Example
 
 
-#install.packages("devtools")
-library(devtools)
-install_github("hanjiayi/CoNet")
-#Usage
 
 
 
