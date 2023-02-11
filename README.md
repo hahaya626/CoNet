@@ -7,9 +7,9 @@ This approach is described in, </br>
 # Installation
 It is easy to intall the development version of CoNet package using the 'devtools' package.</br>
 ```
-  #install.packages("devtools")</br>
-  library(devtools)</br>
-  install_github("hanjiayi/CoNet")</br>
+  #install.packages("devtools")
+  library(devtools)
+  install_github("hanjiayi/CoNet")
 ```
 # Example
 One simple example to use the package can be found at </br>
