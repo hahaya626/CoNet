@@ -15,7 +15,7 @@
 #' data("data2")
 #' num <- dim(data1[1])
 #' formula <-Surv(ctime,censor)~V1+V2+V3+V4+V5+V6+V7+V1_2+V2_3+V3_4+V3_5+V3_6+V3_7+PC1+PC2+PC3+PC4+PC5
-#' result <- CoNet(data1, data2, num, formula)
+#' result <- CPNT(data1, data2, num, formula)
 CPNT <- function(data1, data2, num, formula){
   #----------EDGE----------#
   b<-unlist(data1)
