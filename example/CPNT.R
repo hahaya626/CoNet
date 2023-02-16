@@ -1,6 +1,6 @@
 library(survival)
 library(data.table)
-library(CPNT)
+library(CoNet)
 data("data1")
 data("data2")
 num <- dim(data1[1])
